@@ -35,7 +35,7 @@ public class Login
             }
 
             // Validar contraseña y correo
-            if (email == registerDto.Email && password == registerDto.Password)
+            if (email == registerDto.Email && password == registerDto.Password && registerDto.RoleIdFk==2)
             {
                 // Usuario autenticado, genera un nuevo token
                 tokenUsuario = email + "#" + DateTime.UtcNow.AddHours(18).ToString("yyyyMMddHHmmss");
