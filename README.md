@@ -1,5 +1,6 @@
 # Manual JWT Implementation🤓💻🔒
 
+https://www.youtube.com/watch?v=9WZOE8a9AeI
 
 This project demonstrates the implementation of JSON Web Tokens (JWT) manually, providing you with more control and flexibility over the JWT generation and validation process.
 
